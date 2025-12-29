@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Donacije za Životinje u Hrvatskoj | Crypto Pet Help</title>
+
+<meta name="description" content="Pomozite napuštenim životinjama u Hrvatskoj. Donirajte Bitcoin, Ethereum ili USDT. Sigurna i transparentna kripto donacija.">
+<meta name="keywords" content="donacija za životinje, pet help Croatia, crypto donation pets, BTC donacija, ETH donacija, USDT donacija">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://YOURDOMAIN.netlify.app/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Crypto Donacije za Životinje">
+<meta property="og:description" content="Sigurna kripto pomoć za kućne ljubimce u Hrvatskoj">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero.jpg">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DonateAction",
+  "name": "Pet Help Crypto Donation",
+  "description": "Crypto donations for animal welfare in Croatia",
+  "recipient": {
+    "@type": "Organization",
+    "name": "Pet Help Crypto"
+  }
+}
+</script>
+</head>
+
+<body>
+
+<header class="hero">
+  <h1>🐾 Pomozimo Životinjama Kriptovalutom</h1>
+  <p>Vaša donacija spašava živote napuštenih kućnih ljubimaca u Hrvatskoj.</p>
+  <a href="#donate" class="btn">Doniraj Sada</a>
+</header>
+
+<section class="container">
+  <h2>Zašto Donirati?</h2>
+  <p>
+    Podržavamo skloništa, veterinarsku skrb i hranu za napuštene životinje.
+    Sve donacije su transparentne i provjerljive putem blockchaina.
+  </p>
+</section>
+
+<section id="donate" class="donate container">
+  <h2>💰 Kripto Donacije</h2>
+
+  <div class="wallet">
+    <h3>Bitcoin (BTC)</h3>
+    <code>BTC_WALLET_ADDRESS</code>
+  </div>
+
+  <div class="wallet">
+    <h3>Ethereum (ETH)</h3>
+    <code>ETH_WALLET_ADDRESS</code>
+  </div>
+
+  <div class="wallet">
+    <h3>USDT (TRC20 / ERC20)</h3>
+    <code>USDT_WALLET_ADDRESS</code>
+  </div>
+</section>
+
+<section class="container">
+<h2>✅ Potvrda Donacije</h2>
+<form name="donation" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="donation">
+
+<input type="text" name="name" placeholder="Ime (opcionalno)">
+<input type="email" name="email" placeholder="Email" required>
+<input type="text" name="crypto" placeholder="Kriptovaluta (BTC/ETH/USDT)">
+<input type="text" name="amount" placeholder="Iznos">
+<input type="text" name="txid" placeholder="TXID / Hash" required>
+
+<button class="btn" type="submit">Pošalji Potvrdu</button>
+</form>
+</section>
+
+<section class="trust container">
+<h2>🔒 Povjerenje & Transparentnost</h2>
+<div class="badges">
+  <img src="images/trust1.png">
+  <img src="images/trust2.png">
+  <img src="images/trust3.png">
+</div>
+<p>Sve transakcije su javno provjerljive putem blockchain mreže.</p>
+</section>
+
+<footer>
+<p>© 2025 Pet Help Crypto | Sva prava pridržana</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
