@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://donacijezazivotinje.netlify.app/sitemap.xml
