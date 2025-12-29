@@ -1,15 +1,29 @@
+/* GENERAL BODY & LAYOUT */
 body{
   margin:0;
   font-family:Arial, sans-serif;
   background:#f9f9f9;
   color:#333;
 }
-.wrap{max-width:1000px;margin:auto;padding:20px;}
+.wrap{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+/* HEADER */
 header{
   background:#1e88e5;
   color:#fff;
   text-align:center;
   padding:40px 20px;
+}
+header h1{
+  margin:0;
+  font-size:2.5em;
+}
+header p{
+  margin:10px 0 20px 0;
 }
 .btn{
   display:inline-block;
@@ -20,44 +34,75 @@ header{
   text-decoration:none;
   font-weight:bold;
 }
-.section{padding:40px 20px;}
-.section.light{background:#fff;}
+
+/* SECTIONS */
+.section{
+  padding:40px 20px;
+}
+.section.light{
+  background:#fff;
+}
+
+/* IMAGE STRIP */
 .image-strip{
   display:flex;
   gap:5px;
+  flex-wrap:wrap;
 }
 .image-strip img{
   width:33.33%;
   height:250px;
   object-fit:cover;
 }
+
+/* STATS */
 .stats{
   display:flex;
   justify-content:space-around;
   text-align:center;
+  flex-wrap:wrap;
+  gap:20px;
 }
 .stats strong{
   font-size:36px;
   color:#1e88e5;
 }
-footer{
-  background:#222;
-  color:#aaa;
-  text-align:center;
-  padding:15px;
-}
+
+/* DONATION BOX */
 .donate-box{
   background:#fff;
   padding:20px;
   border-radius:5px;
+  margin-bottom:20px;
 }
+.donate-box p{
+  margin:10px 0;
+}
+
+/* FORM */
 .form input, .form button{
   width:100%;
   padding:10px;
   margin:8px 0;
+  box-sizing:border-box;
+  border-radius:5px;
+  border:1px solid #ccc;
 }
 .form button{
   background:#1e88e5;
   color:#fff;
   border:none;
+  cursor:pointer;
+}
+.form button:hover{
+  background:#1565c0;
+}
+
+/* FOOTER */
+footer{
+  background:#222;
+  color:#aaa;
+  text-align:center;
+  padding:15px;
+  font-size:0.9em;
 }
