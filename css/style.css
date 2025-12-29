@@ -1,50 +1,74 @@
 body{
   margin:0;
-  font-family:Arial, sans-serif;
-  background:#f5f7fa;
+  font-family:Segoe UI, Arial, sans-serif;
+  background:#f4f6f8;
   color:#333;
 }
 .hero{
-  background:#1e88e5;
-  color:#fff;
-  padding:60px 20px;
-  text-align:center;
+  background:url('../images/pet1.jpg') center/cover no-repeat;
+  height:70vh;
 }
-.btn{
-  background:#fff;
-  color:#1e88e5;
-  padding:12px 25px;
-  border-radius:6px;
-  text-decoration:none;
-  font-weight:bold;
+.hero-overlay{
+  background:rgba(0,0,0,0.45);
+  height:100%;
+  display:flex;
+  align-items:center;
 }
-.container{
+.wrap{
   max-width:900px;
   margin:auto;
-  padding:40px 20px;
+  padding:0 20px;
 }
+.hero h1{color:#fff;font-size:42px;}
+.hero p{color:#eee;max-width:600px;}
+.btn{
+  display:inline-block;
+  background:#1e88e5;
+  color:#fff;
+  padding:12px 28px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:600;
+  margin-top:10px;
+}
+.image-strip{
+  display:flex;
+  gap:10px;
+  padding:20px;
+  background:#fff;
+}
+.image-strip img{
+  width:33.33%;
+  border-radius:8px;
+  object-fit:cover;
+}
+.section{padding:60px 20px;}
+.section.light{background:#fff;}
 .wallet{
   background:#fff;
   padding:15px;
-  border-radius:8px;
   margin:10px 0;
+  border-radius:6px;
 }
-.wallet code{
-  display:block;
-  word-break:break-all;
-}
+code{word-break:break-all;}
 form input{
   width:100%;
   padding:12px;
   margin:8px 0;
 }
-footer{
+.stats{
+  display:flex;
+  justify-content:space-around;
   text-align:center;
+}
+.stats strong{
+  font-size:36px;
+  color:#1e88e5;
+}
+.footer{
   background:#111;
-  color:#ccc;
-  padding:15px;
+  color:#aaa;
+  text-align:center;
+  padding:20px;
 }
-.badges img{
-  width:70px;
-  margin:10px;
-}
+.footer a{color:#aaa;}
