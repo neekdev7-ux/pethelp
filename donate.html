@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Doniraj | Pet Help Crypto</title>
+
+<meta name="description" content="Donirajte Bitcoin, Ethereum ili USDT i pomozite životinjama u Hrvatskoj.">
+<meta name="robots" content="index, follow">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header small">
+  <div class="wrap">
+    <h1>Kripto Donacije</h1>
+    <p>Vaša donacija ima stvaran i mjerljiv utjecaj</p>
+  </div>
+</header>
+
+<section class="section">
+<div class="wrap">
+
+<h2>Kripto Novčanici</h2>
+
+<div class="wallet">
+<strong>Bitcoin (BTC)</strong>
+<code>BTC_WALLET_ADDRESS_HERE</code>
+</div>
+
+<div class="wallet">
+<strong>Ethereum (ETH)</strong>
+<code>ETH_WALLET_ADDRESS_HERE</code>
+</div>
+
+<div class="wallet">
+<strong>USDT (TRC20 / ERC20)</strong>
+<code>USDT_WALLET_ADDRESS_HERE</code>
+</div>
+
+</div>
+</section>
+
+<section class="section light">
+<div class="wrap">
+<h2>Potvrda Donacije</h2>
+
+<form name="donation" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="donation">
+
+<input type="text" name="name" placeholder="Ime (opcionalno)">
+<input type="email" name="email" placeholder="Email" required>
+<input type="text" name="crypto" placeholder="Kriptovaluta">
+<input type="text" name="amount" placeholder="Iznos">
+<input type="text" name="txid" placeholder="TXID / Hash" required>
+
+<button class="btn">Pošalji Potvrdu</button>
+</form>
+
+</div>
+</section>
+
+<footer class="footer">
+<p><a href="index.html">← Povratak na početnu</a></p>
+</footer>
+
+</body>
+</html>
