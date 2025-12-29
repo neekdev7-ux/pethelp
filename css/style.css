@@ -1,60 +1,35 @@
 body{
   margin:0;
-  font-family:Segoe UI, Arial, sans-serif;
-  background:#f4f6f8;
+  font-family:Arial, sans-serif;
+  background:#f9f9f9;
   color:#333;
 }
-.hero{
-  background:url('../images/pet1.jpg') center/cover no-repeat;
-  height:70vh;
-}
-.hero-overlay{
-  background:rgba(0,0,0,0.45);
-  height:100%;
-  display:flex;
-  align-items:center;
-}
-.wrap{
-  max-width:900px;
-  margin:auto;
-  padding:0 20px;
-}
-.hero h1{color:#fff;font-size:42px;}
-.hero p{color:#eee;max-width:600px;}
-.btn{
-  display:inline-block;
+.wrap{max-width:1000px;margin:auto;padding:20px;}
+header{
   background:#1e88e5;
   color:#fff;
-  padding:12px 28px;
-  border-radius:6px;
-  text-decoration:none;
-  font-weight:600;
-  margin-top:10px;
+  text-align:center;
+  padding:40px 20px;
 }
+.btn{
+  display:inline-block;
+  background:#fff;
+  color:#1e88e5;
+  padding:12px 25px;
+  border-radius:5px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.section{padding:40px 20px;}
+.section.light{background:#fff;}
 .image-strip{
   display:flex;
-  gap:10px;
-  padding:20px;
-  background:#fff;
+  gap:5px;
 }
 .image-strip img{
   width:33.33%;
-  border-radius:8px;
+  height:250px;
   object-fit:cover;
-}
-.section{padding:60px 20px;}
-.section.light{background:#fff;}
-.wallet{
-  background:#fff;
-  padding:15px;
-  margin:10px 0;
-  border-radius:6px;
-}
-code{word-break:break-all;}
-form input{
-  width:100%;
-  padding:12px;
-  margin:8px 0;
 }
 .stats{
   display:flex;
@@ -65,10 +40,24 @@ form input{
   font-size:36px;
   color:#1e88e5;
 }
-.footer{
-  background:#111;
+footer{
+  background:#222;
   color:#aaa;
   text-align:center;
-  padding:20px;
+  padding:15px;
 }
-.footer a{color:#aaa;}
+.donate-box{
+  background:#fff;
+  padding:20px;
+  border-radius:5px;
+}
+.form input, .form button{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+}
+.form button{
+  background:#1e88e5;
+  color:#fff;
+  border:none;
+}
