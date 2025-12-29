@@ -1,0 +1,50 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f5f7fa;
+  color:#333;
+}
+.hero{
+  background:#1e88e5;
+  color:#fff;
+  padding:60px 20px;
+  text-align:center;
+}
+.btn{
+  background:#fff;
+  color:#1e88e5;
+  padding:12px 25px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+.wallet{
+  background:#fff;
+  padding:15px;
+  border-radius:8px;
+  margin:10px 0;
+}
+.wallet code{
+  display:block;
+  word-break:break-all;
+}
+form input{
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+}
+footer{
+  text-align:center;
+  background:#111;
+  color:#ccc;
+  padding:15px;
+}
+.badges img{
+  width:70px;
+  margin:10px;
+}
